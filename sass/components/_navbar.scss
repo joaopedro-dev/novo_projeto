@@ -1,0 +1,13 @@
+.navBar{
+    background: black;
+    height: 40px;
+    padding: 10px;
+    .navBlock{
+        display: flex;
+        justify-content: space-between;
+        .navLink{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
