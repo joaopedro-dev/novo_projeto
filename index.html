@@ -4,19 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/1f41720a46.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./sass/bundle.css">
     <title>Industrious</title>
 </head>
 <body>
-    <header class="navBar">
+    <header class="nav_bar">
         <div class="row">
             <div class="col">
-                <div class="navBlock">
-                    <a href="#" class="navLink">Industrious</a>
-                    <button class="navBtn">Menu</button>
+                <div class="nav_box">
+                    <a href="#" class="nav_home">Industrious</a>
+                    <nav class="nav_menu">
+                        <span class="menu_text">
+                        <i class="fas fa-bars fa"></i> Menu</span>
+                    </nav>
+
+                    <nav class="menu_link">
+                            <ul class="_link_list">
+                                <li class="item"><a href="#">Home</a></li>
+                                <li class="item"><a href="#">Elements</a></li>
+                                <li class="item"><a href="#">Generic</a></li>
+                            </ul>
+                            <div class="close">
+                                    <i class="far fa-times-circle fa"></i>
+                            </div>
+                    </nav>
                 </div>
+
             </div>
         </div>
     </header>
+
+    <script src="/js/main.js"></script>
 </body>
 </html>
