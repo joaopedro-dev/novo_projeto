@@ -621,7 +621,7 @@ html {
   font-weight: 600;
   text-decoration: none;
   color: bisque;
-  font-size: 1rem;
+  font-size: 15px;
   padding: 0 1.25rem;
 }
 
@@ -759,7 +759,7 @@ html {
 .cards .cards_grid .card {
   padding: 55px;
   border-radius: 4px;
-  margin: 30px;
+  margin: 22px;
   height: 350px;
   font-family: "Raleway", sans-serif;
   text-align: center;
