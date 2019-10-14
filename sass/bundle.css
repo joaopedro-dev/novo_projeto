@@ -602,7 +602,10 @@ html {
 .nav_bar {
   background: #131212;
   height: 44px;
+  width: 100%;
   padding: 12px;
+  position: fixed;
+  z-index: 10001;
 }
 
 .nav_bar .nav_box {
@@ -700,25 +703,87 @@ html {
 }
 
 .banner .banner_box {
-  padding: 0%;
   font-family: "Raleway", sans-serif;
-  color: bisque;
 }
 
 .banner .banner_box .banner_title {
+  color: bisque;
+  font-weight: 100;
   text-align: center;
   font-size: 64px;
-  font-weight: 300;
+  margin: 60px 10px 50px 10px;
 }
 
 .banner .banner_box .banner_text {
+  color: rgba(255, 255, 255, 0.5);
   font-size: 24px;
   font-weight: 400;
 }
 
 .banner .banner_box .banner_text .banner_link {
   text-decoration: none;
-  color: bisque;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.cards {
+  padding: 20px;
+}
+
+.cards .dash_cards {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.cards .dash_cards .title_dash {
+  color: #555555;
+  font-family: "Raleway", sans-serif;
+  font-size: 33px;
+  font-weight: 300;
+}
+
+.cards .dash_cards .text_dash {
+  margin: 0px 100px 0px 100px;
+  color: #555555;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.cards .cards_grid {
+  padding-top: 50px;
+}
+
+.cards .cards_grid .card {
+  padding: 55px;
+  border-radius: 4px;
+  margin: 30px;
+  height: 350px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
+          box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
+  background: #ffffff;
+}
+
+.cards .cards_grid .card .icon {
+  font-size: 73px;
+  color: #ce1b28;
+  font-weight: 500;
+}
+
+.cards .cards_grid .card .title_card {
+  font-size: 18px;
+  font-weight: 300;
+  color: #555555;
+}
+
+.cards .cards_grid .card .text_card {
+  font-size: 15px;
+  font-weight: 400;
+  color: #444444;
 }
 
 html {

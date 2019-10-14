@@ -1,0 +1,50 @@
+.cards{
+    padding: 20px;
+    .dash_cards{
+        justify-content: center;
+        text-align: center;
+        padding-top: 60px;
+        .title_dash{
+            color: #555555;            ;
+            font-family: $all_font;
+            font-size: 33px;
+            font-weight: 300;
+        }
+        .text_dash{
+            margin: 0px 100px 0px 100px;
+            color: #555555;
+            font-family: $all_font;
+            font-weight: 400;
+            font-size: 15px;
+        }
+    }
+    .cards_grid{
+        padding-top: 50px;
+        .card{
+            padding: 55px;
+            //border: #555555 1px solid;
+            border-radius: 4px;
+            margin: 30px;
+            height: 350px;
+            font-family: $all_font;
+            text-align: center;
+            box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
+            background: #ffffff;
+            .icon{
+                font-size: 73px;
+                color: #ce1b28;
+                font-weight: 500;
+            }
+            .title_card{
+                font-size: 18px;
+                font-weight: 300;
+                color: #555555;
+            }
+            .text_card{
+                font-size: 15px;
+                font-weight: 400;
+                color: #444444;
+            }
+        }
+    }
+}

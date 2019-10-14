@@ -1,10 +1,13 @@
 .nav_bar{
     background: $font_nav;
     height: 44px;
+    width: 100%;
     padding: 12px;
+    position: fixed;
+    z-index: 10001;
     .nav_box{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between; 
         .nav_home{
             font-weight: 600;
             text-decoration: none;
