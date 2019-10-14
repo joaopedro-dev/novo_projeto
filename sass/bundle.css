@@ -615,10 +615,10 @@ html {
 }
 
 .nav_bar .nav_box .nav_home {
+  font-weight: 600;
   text-decoration: none;
   color: bisque;
   font-size: 1rem;
-  font-weight: 500;
   padding: 0 1.25rem;
 }
 
@@ -660,7 +660,8 @@ html {
   list-style-type: none;
   border-bottom: rgba(255, 255, 255, 0.5) 1px solid;
   width: 200px;
-  padding: 10px;
+  padding: 15px;
+  font-family: "Raleway", sans-serif;
 }
 
 .nav_bar .nav_box .menu_link ul li :hover {
@@ -681,6 +682,43 @@ html {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 10px;
+}
+
+.banner {
+  background-image: url("/images/banner1.jpg");
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.banner .banner_box {
+  padding: 0%;
+  font-family: "Raleway", sans-serif;
+  color: bisque;
+}
+
+.banner .banner_box .banner_title {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 300;
+}
+
+.banner .banner_box .banner_text {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.banner .banner_box .banner_text .banner_link {
+  text-decoration: none;
+  color: bisque;
 }
 
 html {

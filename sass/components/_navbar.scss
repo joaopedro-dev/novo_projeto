@@ -6,10 +6,10 @@
         display: flex;
         justify-content: space-between;
         .nav_home{
+            font-weight: 600;
             text-decoration: none;
             color: $color_nav;
             font-size: 1rem;
-            font-weight: 500;
             padding: 0 1.25rem;
         }
         .nav_menu{
@@ -40,7 +40,8 @@
                 list-style-type: none;
                 border-bottom:rgba(255, 255, 255, 0.5) 1px solid;
                 width: 200px;
-                padding: 10px;
+                padding: 15px;
+                font-family: $all_font;
                 :hover{
                     color: $color_nav;
                 }

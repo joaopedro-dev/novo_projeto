@@ -1,0 +1,26 @@
+.banner{
+    background-image: url("/images/banner1.jpg");
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .banner_box{
+        padding: 0%;
+        font-family: $all_font;
+        color: $color_nav;
+        .banner_title{
+            text-align: center;
+            font-size: 64px;
+            font-weight: 300;
+        }
+        .banner_text{
+            font-size: 24px;
+            font-weight: 400;
+            .banner_link{
+                text-decoration: none;
+                color: $color_nav;
+            }
+        }
+    }
+}
