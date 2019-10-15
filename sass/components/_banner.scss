@@ -14,13 +14,16 @@
             font-size: 64px;
             margin: 60px 10px 50px 10px;
         }
-        .banner_text{
-            color:rgba(255, 255, 255, 0.5);
+        p{
             font-size: 24px;
             font-weight: 400;
-            .banner_link{
+            color:rgba(255, 255, 255, 0.5);
+            a{
                 text-decoration: none;
                 color:rgba(255, 255, 255, 0.5);
+            }
+            a:hover{
+                color: #ffffff;
             }
         }
     }

@@ -620,9 +620,9 @@ html {
 .nav_bar .nav_box .nav_home {
   font-weight: 600;
   text-decoration: none;
-  color: bisque;
+  color: #ffffff;
   font-size: 15px;
-  padding: 0 1.25rem;
+  margin: 1px 10px;
 }
 
 .nav_bar .nav_box .nav_menu {
@@ -630,33 +630,25 @@ html {
   padding-left: 15px;
   width: 80px;
   font-size: 15px;
+  cursor: pointer;
 }
 
 .nav_bar .nav_box .nav_menu :hover {
-  color: bisque;
+  color: #ffffff;
 }
 
 .nav_bar .nav_box .menu_link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   position: absolute;
   height: 100vh;
   width: 20rem;
   top: 0;
-  right: -500px;
+  right: -400px;
   background: #131212;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
-  padding: 3rem 2rem;
-  color: bisque;
+  color: #ffffff;
   -webkit-transition: .20s ease-in-out;
   transition: .20s ease-in-out;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
 }
 
 .nav_bar .nav_box .menu_link ul li {
@@ -668,7 +660,7 @@ html {
 }
 
 .nav_bar .nav_box .menu_link ul li :hover {
-  color: bisque;
+  color: #ffffff;
 }
 
 .nav_bar .nav_box .menu_link ul li a {
@@ -707,22 +699,26 @@ html {
 }
 
 .banner .banner_box .banner_title {
-  color: bisque;
+  color: #ffffff;
   font-weight: 100;
   text-align: center;
   font-size: 64px;
   margin: 60px 10px 50px 10px;
 }
 
-.banner .banner_box .banner_text {
-  color: rgba(255, 255, 255, 0.5);
+.banner .banner_box p {
   font-size: 24px;
   font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
 }
 
-.banner .banner_box .banner_text .banner_link {
+.banner .banner_box p a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
+}
+
+.banner .banner_box p a:hover {
+  color: #ffffff;
 }
 
 .cards {
