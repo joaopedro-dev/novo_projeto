@@ -725,7 +725,7 @@ html {
   padding: 20px;
 }
 
-.cards .dash_cards {
+.cards .cards_dash {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -733,14 +733,14 @@ html {
   padding-top: 60px;
 }
 
-.cards .dash_cards .title_dash {
+.cards .cards_dash .dash_title {
   color: #555555;
   font-family: "Raleway", sans-serif;
   font-size: 33px;
   font-weight: 300;
 }
 
-.cards .dash_cards .text_dash {
+.cards .cards_dash .dash_text {
   margin: 0px 100px 0px 100px;
   color: #555555;
   font-family: "Raleway", sans-serif;
@@ -748,15 +748,15 @@ html {
   font-size: 15px;
 }
 
-.cards .cards_grid {
+.cards .cards_box {
   padding-top: 50px;
 }
 
-.cards .cards_grid .card {
+.cards .cards_box .card {
   padding: 55px;
   border-radius: 4px;
-  margin: 22px;
-  height: 350px;
+  margin: 25px;
+  height: 400px;
   font-family: "Raleway", sans-serif;
   text-align: center;
   -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
@@ -764,19 +764,19 @@ html {
   background: #ffffff;
 }
 
-.cards .cards_grid .card .icon {
+.cards .cards_box .card .icon {
   font-size: 73px;
   color: #ce1b28;
   font-weight: 500;
 }
 
-.cards .cards_grid .card .title_card {
+.cards .cards_box .card .card_title {
   font-size: 18px;
   font-weight: 300;
   color: #555555;
 }
 
-.cards .cards_grid .card .text_card {
+.cards .cards_box .card .card_text {
   font-size: 15px;
   font-weight: 400;
   color: #444444;
