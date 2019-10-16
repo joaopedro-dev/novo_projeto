@@ -20,19 +20,20 @@
     }
     .cards_box{
         padding-top: 50px;
+        padding-bottom: 60px;
         .card{
             padding: 55px;
             //border: #555555 1px solid;
             border-radius: 4px;
             margin: 25px;
-            height: 400px;
+            height: 340px;
             font-family: $all_font;
             text-align: center;
             box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
             background: #ffffff;
             .icon{
                 font-size: 73px;
-                color: #ce1b28;
+                color:rgb(206, 54, 51);
                 font-weight: 500;
             }
             .card_title{

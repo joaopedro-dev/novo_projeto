@@ -1,0 +1,25 @@
+.mini_banner{
+    background-image: url("/images/minibanner.jpg");
+    background-color: rgb(6, 30, 73);
+    height: 380px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: $all_font;
+    .minibanner_box{
+        padding: 30px;
+        margin: 50px 50px;
+        .minibanner_title{
+            color: #ffffff;
+            font-size: 33px;
+            font-weight: 300;
+        }
+        .minibanner_text{
+            font-size: 15px;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.75);
+        }
+    }
+}

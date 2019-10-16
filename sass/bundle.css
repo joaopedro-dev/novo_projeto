@@ -651,6 +651,16 @@ html {
   transition: .20s ease-in-out;
 }
 
+.nav_bar .nav_box .menu_link .close {
+  cursor: pointer;
+  color: #444444;
+  padding: 20px;
+}
+
+.nav_bar .nav_box .menu_link .close :hover {
+  color: #ffffff;
+}
+
 .nav_bar .nav_box .menu_link ul li {
   list-style-type: none;
   border-bottom: rgba(255, 255, 255, 0.5) 1px solid;
@@ -676,7 +686,6 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 10px;
 }
 
 .banner {
@@ -750,13 +759,14 @@ html {
 
 .cards .cards_box {
   padding-top: 50px;
+  padding-bottom: 60px;
 }
 
 .cards .cards_box .card {
   padding: 55px;
   border-radius: 4px;
   margin: 25px;
-  height: 400px;
+  height: 340px;
   font-family: "Raleway", sans-serif;
   text-align: center;
   -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
@@ -766,7 +776,7 @@ html {
 
 .cards .cards_box .card .icon {
   font-size: 73px;
-  color: #ce1b28;
+  color: #ce3633;
   font-weight: 500;
 }
 
@@ -780,6 +790,84 @@ html {
   font-size: 15px;
   font-weight: 400;
   color: #444444;
+}
+
+.mini_banner {
+  background-image: url("/images/minibanner.jpg");
+  background-color: #061e49;
+  height: 380px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.mini_banner .minibanner_box {
+  padding: 30px;
+  margin: 50px 50px;
+}
+
+.mini_banner .minibanner_box .minibanner_title {
+  color: #ffffff;
+  font-size: 33px;
+  font-weight: 300;
+}
+
+.mini_banner .minibanner_box .minibanner_text {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.comment_cards .comment_dash {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.comment_cards .comment_dash .comment_title {
+  font-size: 33px;
+  color: #555555;
+  font-weight: 300;
+}
+
+.comment_cards .comment_dash .comment_text {
+  margin: 50px 20px;
+  font-size: 15px;
+  color: #444444;
+  font-weight: 400;
+}
+
+.comment_cards .cardcomment_box {
+  padding-top: 20px;
+}
+
+.comment_cards .cardcomment_box .card_comment {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
+          box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
+  border-radius: 4px;
+  margin: 25px;
+  height: 300px;
+  padding: 40px;
+}
+
+.comment_cards .cardcomment_box .card_comment .cardcomment_text {
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 400;
+  color: #444444;
+  margin: 0px 0px 32px;
+  padding: 16px 0px 16px 32px;
+  border-left: #BFBFBF 7px solid;
 }
 
 html {

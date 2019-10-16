@@ -36,6 +36,15 @@
             font-size: 16px;
             color: $color_nav;
             transition: .20s ease-in-out;
+
+            .close{
+                cursor: pointer;
+                color: #444444;
+                padding: 20px;
+                :hover{
+                    color: #ffffff;
+                }
+            }
         
             ul li {
                 list-style-type: none;
@@ -55,7 +64,6 @@
                 right: 0;  
                 display: flex;
                 justify-content: space-between;
-                padding: 10px;
                 
             }
         }
