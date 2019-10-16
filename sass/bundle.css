@@ -635,6 +635,8 @@ html {
 
 .nav_bar .nav_box .nav_menu :hover {
   color: #ffffff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .nav_bar .nav_box .menu_link {
@@ -654,7 +656,7 @@ html {
 .nav_bar .nav_box .menu_link .close {
   cursor: pointer;
   color: #444444;
-  padding: 20px;
+  padding-right: 10px;
 }
 
 .nav_bar .nav_box .menu_link .close :hover {
@@ -671,6 +673,8 @@ html {
 
 .nav_bar .nav_box .menu_link ul li :hover {
   color: #ffffff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .nav_bar .nav_box .menu_link ul li a {
@@ -719,6 +723,7 @@ html {
   font-size: 24px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.5);
+  padding: 5px;
 }
 
 .banner .banner_box p a {
@@ -728,6 +733,8 @@ html {
 
 .banner .banner_box p a:hover {
   color: #ffffff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .cards {
@@ -766,7 +773,7 @@ html {
   padding: 55px;
   border-radius: 4px;
   margin: 25px;
-  height: 340px;
+  height: 370px;
   font-family: "Raleway", sans-serif;
   text-align: center;
   -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
@@ -794,7 +801,7 @@ html {
 
 .mini_banner {
   background-image: url("/images/minibanner.jpg");
-  background-color: #061e49;
+  background-color: #0a2b63;
   height: 380px;
   text-align: center;
   display: -webkit-box;
@@ -848,6 +855,7 @@ html {
 
 .comment_cards .cardcomment_box {
   padding-top: 20px;
+  padding-bottom: 100px;
 }
 
 .comment_cards .cardcomment_box .card_comment {
@@ -856,8 +864,13 @@ html {
           box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
   border-radius: 4px;
   margin: 25px;
-  height: 300px;
-  padding: 40px;
+  height: 315px;
+  padding: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .comment_cards .cardcomment_box .card_comment .cardcomment_text {
@@ -868,6 +881,163 @@ html {
   margin: 0px 0px 32px;
   padding: 16px 0px 16px 32px;
   border-left: #BFBFBF 7px solid;
+}
+
+.comment_cards .cardcomment_box .card_comment .autor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.comment_cards .cardcomment_box .card_comment .autor .autor_image {
+  height: 50px;
+  width: 50px;
+}
+
+.comment_cards .cardcomment_box .card_comment .autor .autor_text {
+  font-size: 11px;
+  padding-left: 30px;
+}
+
+.comment_cards .cardcomment_box .card_comment .autor .autor_text strong {
+  color: #ce1b28;
+  font-weight: 400px;
+}
+
+.comment_cards .cardcomment_box .card_comment .autor .autor_text span {
+  color: #444444;
+  font-weight: 600px;
+}
+
+.foot {
+  background-color: #111111;
+  height: 500px;
+  padding: 110px 10px 10px 10px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.foot .text_box .text_title {
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.foot .text_box .text_p {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.foot .list_box {
+  padding-left: 40px;
+}
+
+.foot .list_box .list_title {
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.foot .list_box .list_link {
+  list-style: none;
+  padding: 2px;
+}
+
+.foot .list_box .list_link .list_item {
+  padding: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.foot .list_box .list_link .list_item a:hover {
+  color: #ce1b28;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.foot .list_box .list_link .list_item .link_item {
+  text-decoration: none;
+  border-bottom: #555555 1px solid;
+  padding: 4px 15px 12px 10px;
+  color: #555555;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.foot .list_box .list_link .list_item .link {
+  text-decoration: none;
+  padding: 4px 15px 12px 10px;
+  color: #555555;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.foot .social_box {
+  padding-left: 10px;
+}
+
+.foot .social_box .icon_social {
+  color: #ffffff;
+  padding-right: 20px;
+  margin: 1px;
+}
+
+.foot .social_box .social_title {
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+  padding-left: 30px;
+}
+
+.foot .social_box .social_list .social_item {
+  list-style: none;
+  padding: 10px;
+  text-align: left;
+}
+
+.foot .social_box .social_list .social_item a {
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #555555;
+}
+
+.foot .social_box .social_list .social_item a:hover {
+  color: #ce1b28;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.foot .copy {
+  border-top: #444444 1px solid;
+  text-align: center;
+}
+
+.foot .copy .copy_title {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 10px;
+}
+
+.foot .copy .copy_title a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.foot .copy .copy_title a:hover {
+  color: #ce1b28;
 }
 
 html {

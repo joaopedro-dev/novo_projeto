@@ -16,14 +16,18 @@
     }
     .cardcomment_box{
         padding-top: 20px;
+        padding-bottom: 100px;
         .card_comment{
             background-color: #ffffff;
             // border: #444444 1px solid;
             box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
             border-radius: 4px;
             margin: 25px;
-            height: 300px;
-            padding: 40px;
+            height: 315px;
+            padding: 50px;
+            justify-content: center;
+            align-content: center;
+
             .cardcomment_text{
                 font-style: italic;
                 font-size: 15px;
@@ -32,6 +36,27 @@
                 margin: 0px 0px 32px;
                 padding: 16px 0px 16px 32px;
                 border-left: #BFBFBF 7px solid;
+            }
+            .autor{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                .autor_image{
+                    height: 50px;
+                    width: 50px;
+                }
+                .autor_text{
+                    font-size: 11px;
+                    padding-left: 30px;
+                    strong{
+                        color:#ce1b28;
+                        font-weight: 400px;
+                    }
+                    span{
+                        color: #444444;
+                        font-weight: 600px;
+                    }
+                }
             }
         }
     }

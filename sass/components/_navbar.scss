@@ -23,6 +23,7 @@
             cursor: pointer;
             :hover{
                 color: $color_nav;
+                transition: 0.5s;
             }
         }
         .menu_link{
@@ -40,7 +41,7 @@
             .close{
                 cursor: pointer;
                 color: #444444;
-                padding: 20px;
+                padding-right: 10px;
                 :hover{
                     color: #ffffff;
                 }
@@ -54,6 +55,7 @@
                 font-family: $all_font;
                 :hover{
                     color: $color_nav;
+                    transition: 0.3s;
                 }
                 a{
                     text-decoration: none;
