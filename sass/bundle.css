@@ -647,10 +647,37 @@ html {
   right: -400px;
   background: #131212;
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
+  font-weight: 400;
   color: #ffffff;
   -webkit-transition: .20s ease-in-out;
   transition: .20s ease-in-out;
+  text-decoration: none;
+}
+
+.nav_bar .nav_box .menu_link .link_list a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.nav_bar .nav_box .menu_link .link_list a:hover {
+  color: #ffffff;
+  -webkit-transition: 0.3;
+  transition: 0.3;
+}
+
+.nav_bar .nav_box .menu_link .link_list .item {
+  list-style-type: none;
+  border-bottom: rgba(255, 255, 255, 0.5) 1px solid;
+  width: 230px;
+  padding: 20px 10px 15px 2px;
+  font-family: "Raleway", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.nav_bar .nav_box .menu_link .link_list .final {
+  list-style-type: none;
+  padding: 20px 10px 15px 2px;
 }
 
 .nav_bar .nav_box .menu_link .close {
@@ -661,25 +688,6 @@ html {
 
 .nav_bar .nav_box .menu_link .close :hover {
   color: #ffffff;
-}
-
-.nav_bar .nav_box .menu_link ul li {
-  list-style-type: none;
-  border-bottom: rgba(255, 255, 255, 0.5) 1px solid;
-  width: 200px;
-  padding: 15px;
-  font-family: "Raleway", sans-serif;
-}
-
-.nav_bar .nav_box .menu_link ul li :hover {
-  color: #ffffff;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.nav_bar .nav_box .menu_link ul li a {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.5);
 }
 
 .nav_bar .nav_box .menu_link.active {
@@ -694,6 +702,7 @@ html {
 
 .banner {
   background-image: url("/images/banner1.jpg");
+  background-repeat: repeat-x;
   height: 35rem !important;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -721,7 +730,7 @@ html {
 
 .banner .banner_box p {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 200;
   color: rgba(255, 255, 255, 0.5);
   padding: 5px;
 }
@@ -770,10 +779,10 @@ html {
 }
 
 .cards .cards_box .card {
-  padding: 55px;
+  padding: 80px 50px 10px 50px;
   border-radius: 4px;
   margin: 25px;
-  height: 370px;
+  height: 382.33px;
   font-family: "Raleway", sans-serif;
   text-align: center;
   -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
@@ -801,8 +810,9 @@ html {
 
 .mini_banner {
   background-image: url("/images/minibanner.jpg");
+  background-attachment: fixed;
   background-color: #0a2b63;
-  height: 380px;
+  height: 360.66px;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -864,7 +874,7 @@ html {
           box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
   border-radius: 4px;
   margin: 25px;
-  height: 315px;
+  height: 316.5px;
   padding: 50px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -898,6 +908,7 @@ html {
 .comment_cards .cardcomment_box .card_comment .autor .autor_image {
   height: 50px;
   width: 50px;
+  border-radius: 200px;
 }
 
 .comment_cards .cardcomment_box .card_comment .autor .autor_text {
@@ -950,7 +961,7 @@ html {
 }
 
 .foot .list_box .list_link .list_item {
-  padding: 2px;
+  padding: 1px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -970,15 +981,17 @@ html {
 .foot .list_box .list_link .list_item .link_item {
   text-decoration: none;
   border-bottom: #555555 1px solid;
-  padding: 4px 15px 12px 10px;
+  width: 300px;
+  padding: 8px 0px 12px 0px;
   color: #555555;
   font-size: 15px;
   font-weight: 400;
 }
 
 .foot .list_box .list_link .list_item .link {
+  text-align: left;
   text-decoration: none;
-  padding: 4px 15px 12px 10px;
+  padding: 8px 0px 12px 0px;
   color: #555555;
   font-size: 15px;
   font-weight: 400;
@@ -1048,7 +1061,7 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: rgba(243, 230, 230, 0.808);
+  background-color: black;
   font-family: "Raleway", sans-serif;
 }
 /*# sourceMappingURL=bundle.css.map */
