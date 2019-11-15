@@ -2,7 +2,7 @@ $(document).ready(function(){
     $('.nav_menu').click(function(){
         $('.menu_link').addClass('active')
     })
-    $('.close').click(function(){
+    $('.btn-close').click(function(){
         $('.menu_link').removeClass('active')
     })
 })
