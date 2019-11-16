@@ -697,7 +697,7 @@ html {
 .nav_bar .nav_box .menu_link .link_list .item {
   list-style-type: none;
   border-bottom: rgba(255, 255, 255, 0.5) 1px solid;
-  padding: 20px 10px 15px 2px;
+  padding: 5px 10px 5px 2px;
   font-family: "Raleway", sans-serif;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -1070,7 +1070,7 @@ html {
 
 .foot {
   background-color: #111111;
-  height: 500px;
+  height: auto;
   padding: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1226,9 +1226,6 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .foot .list_box .list_link .list_item {
-    width: auto;
   }
 }
 

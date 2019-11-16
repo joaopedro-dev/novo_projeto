@@ -1,6 +1,6 @@
 .foot{
     background-color: #111111;
-    height: 500px;
+    height: auto;
     padding: 100px;
     display: flex;
     align-content: center;
@@ -111,12 +111,12 @@
         .row{
             flex-direction: column;
         }
-        .list_box{
-            .list_link{
-                .list_item{
-                    width: auto;
-                }
-            }
-        }
+        // .list_box{
+        //     .list_link{
+        //         .list_item{
+        //             width: auto;
+        //         }
+        //     }
+        // }
     }
 }
