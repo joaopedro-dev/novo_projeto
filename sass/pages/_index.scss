@@ -5,6 +5,11 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
-    background-color: rgba(243, 230, 230, 0.808);
     font-family: $all_font;
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.856)), url('/images/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    z-index: -1;
 }

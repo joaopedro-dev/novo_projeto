@@ -1,11 +1,19 @@
 .banner{
-    background-image: url("/images/banner1.jpg");
-    background-repeat: repeat-x;
+    // background-image: url('/images/banner.jpg');
+    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-color: #111111;
+    position: relative;
     height: 35rem !important;
+    max-width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    opacity: 0.8;
+    z-index: 1;
     .banner_box{
         font-family: $all_font;
         .banner_title{

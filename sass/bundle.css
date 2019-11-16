@@ -709,9 +709,14 @@ html {
 }
 
 .banner {
-  background-image: url("/images/banner1.jpg");
-  background-repeat: repeat-x;
+  background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #111111;
+  position: relative;
   height: 35rem !important;
+  max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -722,6 +727,8 @@ html {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  opacity: 0.8;
+  z-index: 1;
 }
 
 .banner .banner_box {
@@ -817,9 +824,14 @@ html {
 }
 
 .mini_banner {
-  background-image: url("/images/minibanner.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(206, 27, 40, 0.25)), to(rgba(206, 27, 40, 0.25))), url("/images/minibanner.jpg");
+  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url("/images/minibanner.jpg");
   background-attachment: fixed;
-  background-color: #0a2b63;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
   height: 360.66px;
   text-align: center;
   display: -webkit-box;
@@ -1069,7 +1081,13 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: rgba(243, 230, 230, 0.808);
   font-family: "Raleway", sans-serif;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 255, 255, 0.856))), url("/images/bg.jpg");
+  background-image: linear-gradient(white, rgba(255, 255, 255, 0.856)), url("/images/bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  z-index: -1;
 }
 /*# sourceMappingURL=bundle.css.map */

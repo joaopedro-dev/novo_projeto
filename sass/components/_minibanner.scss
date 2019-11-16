@@ -1,7 +1,11 @@
 .mini_banner{
-    background-image: url("/images/minibanner.jpg");
+    background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url('/images/minibanner.jpg');
     background-attachment: fixed;
-    background-color:rgb(10, 43, 99);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
     height: 360.66px;
     text-align: center;
     display: flex;
