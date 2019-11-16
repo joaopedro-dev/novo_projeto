@@ -1217,9 +1217,8 @@ body {
   padding: 0;
   border: 0;
   font-family: "Raleway", sans-serif;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 255, 255, 0.856))), url("/images/bg.jpg");
-  background-image: linear-gradient(white, rgba(255, 255, 255, 0.856)), url("/images/bg.jpg");
-  opacity: 1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 255, 255, 0.842))), url("/images/bg.jpg");
+  background-image: linear-gradient(white, rgba(255, 255, 255, 0.842)), url("/images/bg.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
