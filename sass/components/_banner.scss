@@ -43,6 +43,23 @@
         }
     }
 }
+@media (max-width: 588px){
+    .banner{
+        padding: 20px;
+        .banner_box{
+            padding: 1px;
+            .banner_title{
+                font-size: 20px;
+            }
+            .banner_text{
+                font-size: 15px;
+            }
+            p{
+                font-size: 8px;
+            }
+        }
+    }
+}
 
 @media (max-width: 768px){
     .banner{

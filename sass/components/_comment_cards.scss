@@ -64,8 +64,26 @@
         }
     }
 }
+// @media (max-width: 588px){
+//     .comment_cards{
+//         .autor{
+//             .autor_image{
+//                 height: 50px;
+//                 width: 50px;
+//             }
+//         }
+//     }
+// }
 @media (max-width: 768px){
     .comment_cards{
+        .comment_dash{
+            .comment_title{
+                font-size: 24px;
+            }
+            .comment_text{
+                font-size: 16px;
+            }
+        }
         .cardcomment_box{
             .card_comment{
                 padding: 22px;
@@ -74,8 +92,8 @@
                 }
                 .autor{
                     .autor_image{
-                        height: 100px;
-                        width: 100px;
+                        height: 90px;
+                        width: 90px;
                     }
                 }
             }

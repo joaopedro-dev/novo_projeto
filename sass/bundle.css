@@ -783,6 +783,24 @@ html {
   transition: 0.5s;
 }
 
+@media (max-width: 588px) {
+  .banner {
+    padding: 20px;
+  }
+  .banner .banner_box {
+    padding: 1px;
+  }
+  .banner .banner_box .banner_title {
+    font-size: 20px;
+  }
+  .banner .banner_box .banner_text {
+    font-size: 15px;
+  }
+  .banner .banner_box p {
+    font-size: 8px;
+  }
+}
+
 @media (max-width: 768px) {
   .banner {
     background-attachment: scroll;
@@ -1032,6 +1050,12 @@ html {
 }
 
 @media (max-width: 768px) {
+  .comment_cards .comment_dash .comment_title {
+    font-size: 24px;
+  }
+  .comment_cards .comment_dash .comment_text {
+    font-size: 16px;
+  }
   .comment_cards .cardcomment_box .card_comment {
     padding: 22px;
   }
@@ -1039,8 +1063,8 @@ html {
     font-size: 16px;
   }
   .comment_cards .cardcomment_box .card_comment .autor .autor_image {
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
   }
 }
 
