@@ -5,7 +5,7 @@
         text-align: center;
         padding-top: 60px;
         .dash_title{
-            color: #555555;            ;
+            color: #555555;         
             font-family: $all_font;
             font-size: 33px;
             font-weight: 300;
@@ -22,7 +22,10 @@
         padding-top: 50px;
         padding-bottom: 60px;
         .card{
-            padding: 80px 50px 10px 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 30px;
             //border: #555555 1px solid;
             border-radius: 4px;
             margin: 25px;
@@ -45,6 +48,37 @@
                 font-size: 15px;
                 font-weight: 400;
                 color: #444444;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){  
+    .cards{
+        .cards_box{
+            .card{
+                background-color: aqua;
+            }
+        }
+    }
+}
+
+@media (min-width: 576px){
+    .cards{
+        .cards_box{
+            .card{
+
+                background-color: blueviolet;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px){
+    .cards{
+        .cards_box{
+            .card{
+                background-color: crimson;
             }
         }
     }
