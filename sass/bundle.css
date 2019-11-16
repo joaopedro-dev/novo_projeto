@@ -602,16 +602,28 @@ html {
 .nav_bar {
   background: #111111;
   height: 44px;
+  line-height: 44px;
   width: 100%;
   padding: 12px;
   position: fixed;
   z-index: 10001;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav_bar .row {
+  width: 100%;
 }
 
 .nav_bar .nav_box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -663,12 +675,12 @@ html {
 
 .nav_bar .nav_box .menu_link .row .btn-close {
   color: #fff;
-  padding: 16px;
+  padding-right: 20px;
 }
 
 .nav_bar .nav_box .menu_link .link_list {
   margin: 0;
-  padding: 0 24px;
+  padding: 0 20px;
 }
 
 .nav_bar .nav_box .menu_link .link_list a {
@@ -709,13 +721,14 @@ html {
 }
 
 .banner {
-  background-image: linear-gradient(135deg, #ce1b28 0%, rgba(0, 0, 0, 0.671) 74%), url("/images/banner.jpg");
+  background-image: linear-gradient(135deg, #ce1b28 0%, rgba(0, 0, 0, 0.795) 74%), url("/images/banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
-  height: 35rem !important;
+  min-height: 35rem;
   max-width: 100%;
+  max-height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -728,6 +741,10 @@ html {
   text-align: center;
   opacity: 0.9;
   z-index: 1;
+}
+
+.banner img {
+  max-height: 100%;
 }
 
 .banner .banner_box {
@@ -1004,13 +1021,23 @@ html {
 
 .foot {
   background-color: #111111;
-  max-height: 500px;
-  padding: 70px;
+  height: 500px;
+  padding: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-line-pack: center;
       align-content: center;
+}
+
+.foot .text_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .foot .text_box .text_title {
@@ -1025,7 +1052,13 @@ html {
 }
 
 .foot .list_box {
-  padding-left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .foot .list_box .list_title {
@@ -1077,7 +1110,13 @@ html {
 }
 
 .foot .social_box {
-  padding-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .foot .social_box .icon_social {
@@ -1090,12 +1129,11 @@ html {
   font-size: 15px;
   font-weight: 300;
   color: #ffffff;
-  padding-left: 30px;
 }
 
 .foot .social_box .social_list .social_item {
   list-style: none;
-  padding: 10px;
+  padding: 5px;
   text-align: left;
 }
 
@@ -1120,7 +1158,6 @@ html {
 .foot .copy .copy_title {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.5);
-  padding-top: 10px;
 }
 
 .foot .copy .copy_title a {
@@ -1130,6 +1167,21 @@ html {
 
 .foot .copy .copy_title a:hover {
   color: #ce1b28;
+}
+
+@media (max-width: 788px) {
+  .foot {
+    height: auto;
+  }
+  .foot .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .foot .list_box .list_link .list_item {
+    width: auto;
+  }
 }
 
 html {
@@ -1143,6 +1195,7 @@ body {
   font-family: "Raleway", sans-serif;
   background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 255, 255, 0.856))), url("/images/bg.jpg");
   background-image: linear-gradient(white, rgba(255, 255, 255, 0.856)), url("/images/bg.jpg");
+  opacity: 1;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;

@@ -1,15 +1,20 @@
 .nav_bar {
     background: #111111;
     height: 44px;
+    line-height: 44px;
     width: 100%;
     padding: 12px;
     position: fixed;
     z-index: 10001;
-
+    display: flex;
+    align-items: center;
+    .row{
+        width: 100%;
+    }
     .nav_box {
         display: flex;
+        width: 100%;
         justify-content: space-between;
-
         .nav_home {
             font-weight: 600;
             text-decoration: none;
@@ -50,13 +55,13 @@
 
                 .btn-close {
                     color: #fff;
-                    padding: 16px;
+                    padding-right: 20px;
                 }
             }
 
             .link_list {
                 margin: 0;
-                padding: 0 24px;
+                padding: 0 20px;
 
                 a {
                     text-decoration: none;
