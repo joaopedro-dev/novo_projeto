@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    max-width: 100%;
     z-index: 1;
     height: 360.66px;
     text-align: center;
@@ -14,8 +15,9 @@
     align-items: center;
     font-family: $all_font;
     .minibanner_box{
-        padding: 30px;
-        margin: 50px 50px;
+        padding: 70px;
+        display: flex;
+        flex-direction: column;
         .minibanner_title{
             color: #ffffff;
             font-size: 33px;

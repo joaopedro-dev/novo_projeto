@@ -727,12 +727,19 @@ html {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  opacity: 0.8;
+  opacity: 0.9;
   z-index: 1;
 }
 
 .banner .banner_box {
   font-family: "Raleway", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .banner .banner_box .banner_title {
@@ -740,14 +747,12 @@ html {
   font-weight: 1;
   text-align: center;
   font-size: 64px;
-  margin: 60px 10px 50px 10px;
 }
 
 .banner .banner_box p {
   font-size: 24px;
   font-weight: 200;
   color: rgba(255, 255, 255, 0.5);
-  padding: 5px;
 }
 
 .banner .banner_box p a {
@@ -833,21 +838,15 @@ html {
   color: #444444;
 }
 
-@media (max-width: 576px) {
-  .cards .cards_box .card {
-    background-color: aqua;
+@media (max-width: 768px) {
+  .cards .cards_box .card .icon {
+    font-size: 80px;
   }
-}
-
-@media (min-width: 576px) {
-  .cards .cards_box .card {
-    background-color: blueviolet;
+  .cards .cards_box .card .card_title {
+    font-size: 24px;
   }
-}
-
-@media (min-width: 992px) {
-  .cards .cards_box .card {
-    background-color: crimson;
+  .cards .cards_box .card .card_text {
+    font-size: 15px;
   }
 }
 
@@ -859,6 +858,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  max-width: 100%;
   z-index: 1;
   height: 360.66px;
   text-align: center;
@@ -877,8 +877,14 @@ html {
 }
 
 .mini_banner .minibanner_box {
-  padding: 30px;
-  margin: 50px 50px;
+  padding: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .mini_banner .minibanner_box .minibanner_title {
@@ -923,7 +929,14 @@ html {
   border-radius: 4px;
   margin: 25px;
   height: 316.5px;
-  padding: 50px;
+  padding: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -974,10 +987,23 @@ html {
   font-weight: 600px;
 }
 
+@media (max-width: 768px) {
+  .comment_cards .cardcomment_box .card_comment .cardcomment_text {
+    font-size: 16px;
+  }
+  .comment_cards .cardcomment_box .card_comment .autor .autor_image {
+    height: 100px;
+    width: 100px;
+  }
+}
+
 .foot {
   background-color: #111111;
-  height: 500px;
-  padding: 110px 10px 10px 10px;
+  max-height: 500px;
+  padding: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-line-pack: center;
       align-content: center;
 }

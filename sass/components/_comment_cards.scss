@@ -24,7 +24,9 @@
             border-radius: 4px;
             margin: 25px;
             height: 316.5px;
-            padding: 50px;
+            padding: 60px;
+            display: flex;
+            flex-direction: column;
             justify-content: center;
             align-content: center;
 
@@ -56,6 +58,23 @@
                     span{
                         color: #444444;
                         font-weight: 600px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px){
+    .comment_cards{
+        .cardcomment_box{
+            .card_comment{
+                .cardcomment_text{
+                    font-size: 16px;
+                }
+                .autor{
+                    .autor_image{
+                        height: 100px;
+                        width: 100px;
                     }
                 }
             }

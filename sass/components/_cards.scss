@@ -53,33 +53,31 @@
     }
 }
 
-@media (max-width: 576px){  
+@media (max-width: 768px){
     .cards{
         .cards_box{
             .card{
-                background-color: aqua;
+                // background-color: cyan;
+                .icon{
+                    font-size: 80px;
+                }
+                .card_title{
+                    font-size: 24px;
+                }
+                .card_text{
+                    font-size: 15px;
+                }
             }
         }
     }
 }
 
-@media (min-width: 576px){
-    .cards{
-        .cards_box{
-            .card{
-
-                background-color: blueviolet;
-            }
-        }
-    }
-}
-
-@media (min-width: 992px){
-    .cards{
-        .cards_box{
-            .card{
-                background-color: crimson;
-            }
-        }
-    }
-}
+// @media (min-width: 992px){
+//     .cards{
+//         .cards_box{
+//             .card{
+//                 // background-color: crimson;
+//             }
+//         }
+//     }
+// }

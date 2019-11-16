@@ -1,8 +1,10 @@
 .foot{
-    background-color:rgb(17, 17, 17);
-    height: 500px;
-    padding: 110px 10px 10px 10px;
+    background-color: #111111;
+    max-height: 500px;
+    padding: 70px;
+    display: flex;
     align-content: center;
+    // position: fixed;
     .text_box{
         .text_title{
             font-size: 18px;
