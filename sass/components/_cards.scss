@@ -55,6 +55,14 @@
 
 @media (max-width: 768px){
     .cards{
+        .cards_dash{
+            .dash_title{
+                font-size: 24px;
+            }
+            .dash_text{
+                font-size: 16px;
+            }
+        }
         .cards_box{
             .card{
                 // background-color: cyan;
@@ -62,7 +70,7 @@
                     font-size: 80px;
                 }
                 .card_title{
-                    font-size: 24px;
+                    font-size: 20px;
                 }
                 .card_text{
                     font-size: 15px;
@@ -71,13 +79,3 @@
         }
     }
 }
-
-// @media (min-width: 992px){
-//     .cards{
-//         .cards_box{
-//             .card{
-//                 // background-color: crimson;
-//             }
-//         }
-//     }
-// }

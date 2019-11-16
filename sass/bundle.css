@@ -725,8 +725,9 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: #111111;
   position: relative;
-  min-height: 35rem;
+  height: 35rem;
   max-width: 100%;
   max-height: 100%;
   display: -webkit-box;
@@ -759,6 +760,7 @@ html {
 }
 
 .banner .banner_box .banner_title {
+  padding: 1px;
   color: #ffffff;
   font-weight: 1;
   text-align: center;
@@ -780,6 +782,20 @@ html {
   color: #ffffff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    background-attachment: scroll;
+    height: 300px;
+    padding: 100px;
+  }
+  .banner .banner_box .banner_title {
+    font-size: 30px;
+  }
+  .banner .banner_box p {
+    font-size: 20px;
+  }
 }
 
 .cards {
@@ -855,11 +871,17 @@ html {
 }
 
 @media (max-width: 768px) {
+  .cards .cards_dash .dash_title {
+    font-size: 24px;
+  }
+  .cards .cards_dash .dash_text {
+    font-size: 16px;
+  }
   .cards .cards_box .card .icon {
     font-size: 80px;
   }
   .cards .cards_box .card .card_title {
-    font-size: 24px;
+    font-size: 20px;
   }
   .cards .cards_box .card .card_text {
     font-size: 15px;
@@ -1010,6 +1032,9 @@ html {
 }
 
 @media (max-width: 768px) {
+  .comment_cards .cardcomment_box .card_comment {
+    padding: 22px;
+  }
   .comment_cards .cardcomment_box .card_comment .cardcomment_text {
     font-size: 16px;
   }
@@ -1069,7 +1094,6 @@ html {
 
 .foot .list_box .list_link {
   list-style: none;
-  padding: 2px;
 }
 
 .foot .list_box .list_link .list_item {
