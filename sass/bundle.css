@@ -709,11 +709,10 @@ html {
 }
 
 .banner {
-  background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+  background-image: linear-gradient(135deg, #ce1b28 0%, rgba(0, 0, 0, 0.671) 74%), url("/images/banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #111111;
   position: relative;
   height: 35rem !important;
   max-width: 100%;
@@ -897,6 +896,12 @@ html {
   font-size: 15px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.75);
+}
+
+@media (max-width: 768px) {
+  .mini_banner {
+    background-attachment: scroll;
+  }
 }
 
 .comment_cards .comment_dash {
