@@ -11,15 +11,15 @@
         color: #555555;
     }
 
-    a:hover{
+    a:hover{    
         color: #ce1b28;
-        transition: 0.5s;
+        transition: 0.5s;   
     }
 
     .text_box{
         display: flex;
         flex-direction: column; 
-        margin: 0px 100px 10px 1px;
+        margin: 0px 70px 10px 1px;
 
         .text_title{
             font-size: 18px;
@@ -46,7 +46,7 @@
 
         .list_link{
             list-style: none;    
-            padding: 1px 20px 0px 0px;
+            padding: 0px 20px 20px 0px;
 
             .list_item{
                 padding: 10px 0px 0px 0px;
@@ -70,8 +70,10 @@
     .social_box{
         display: flex;
         flex-direction:column;
+        padding-left: 30px;
 
         .icon_social{
+            padding-right: 20px;
             color: #ffffff;
             margin: 1px;
         }
@@ -83,9 +85,12 @@
         }
 
         .social_list{
+            margin: 1px 20px 2px 2px;
+            padding: 2px 2px 2px 1px;
+
             .social_item{
                 list-style: none;
-                padding: 8px 2px 2px 2px;
+                padding: 15px 2px 2px 2px;
                 text-align: left;
             }
         }
@@ -94,6 +99,7 @@
     .copy{
         border-top: #444444 1px solid;
         text-align: center;
+        margin: 50px 2px 70px 2px;
 
         .copy_title{
             font-size: 12px;
@@ -113,10 +119,18 @@
 
 @media (max-width: 788px){
     .foot{ 
-        height: auto;
-        
+        height: 1000px;
+
         .row{
             flex-direction: column;
+        }
+
+        .text_box{
+            margin: 0px 0px 50px 1px;
+        }
+
+        .social_box{
+            padding: 0;
         }
     }
 }

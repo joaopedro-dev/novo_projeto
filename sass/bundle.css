@@ -647,8 +647,8 @@ html {
 
 .nav_bar .nav_box .nav_menu :hover {
   color: #ffffff;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
 }
 
 .nav_bar .nav_box .menu_link {
@@ -690,8 +690,8 @@ html {
 
 .nav_bar .nav_box .menu_link .link_list a:hover {
   color: #ffffff;
-  -webkit-transition: 0.3;
-  transition: 0.3;
+  -webkit-transition: 0.8;
+  transition: 0.8;
 }
 
 .nav_bar .nav_box .menu_link .link_list .item {
@@ -760,6 +760,7 @@ html {
   font-weight: 1;
   text-align: center;
   font-size: 64px;
+  margin: 1px 5px 5px 1px;
 }
 
 .banner .banner_box p {
@@ -804,10 +805,11 @@ html {
     padding: 100px;
   }
   .banner .banner_box .banner_title {
-    font-size: 30px;
+    font-size: 28px;
+    margin: 30px 5px 5px 2px;
   }
   .banner .banner_box p {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -883,7 +885,7 @@ html {
 }
 
 .cards .cards_box .card .card_text {
-  font-size: 14px;
+  font-size: 15   px;
   font-weight: 400;
   color: #444444;
 }
@@ -1100,7 +1102,7 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0px 100px 10px 1px;
+  margin: 0px 70px 10px 1px;
 }
 
 .foot .text_box .text_title {
@@ -1134,7 +1136,7 @@ html {
 
 .foot .list_box .list_link {
   list-style: none;
-  padding: 1px 20px 0px 0px;
+  padding: 0px 20px 20px 0px;
 }
 
 .foot .list_box .list_link .list_item {
@@ -1162,9 +1164,11 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-left: 30px;
 }
 
 .foot .social_box .icon_social {
+  padding-right: 20px;
   color: #ffffff;
   margin: 1px;
 }
@@ -1175,15 +1179,21 @@ html {
   color: #ffffff;
 }
 
+.foot .social_box .social_list {
+  margin: 1px 20px 2px 2px;
+  padding: 2px 2px 2px 1px;
+}
+
 .foot .social_box .social_list .social_item {
   list-style: none;
-  padding: 8px 2px 2px 2px;
+  padding: 15px 2px 2px 2px;
   text-align: left;
 }
 
 .foot .copy {
   border-top: #444444 1px solid;
   text-align: center;
+  margin: 50px 2px 70px 2px;
 }
 
 .foot .copy .copy_title {
@@ -1203,13 +1213,19 @@ html {
 
 @media (max-width: 788px) {
   .foot {
-    height: auto;
+    height: 1000px;
   }
   .foot .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .foot .text_box {
+    margin: 0px 0px 50px 1px;
+  }
+  .foot .social_box {
+    padding: 0;
   }
 }
 
