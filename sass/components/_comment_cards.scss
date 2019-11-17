@@ -1,12 +1,15 @@
 .comment_cards{
+
     .comment_dash{
         padding-top: 80px;
         text-align: center;   
+
         .comment_title{
             font-size: 33px;
             color: #555555;
             font-weight: 300;
         }
+
         .comment_text{
             margin: 50px 20px;
             font-size: 15px;
@@ -14,9 +17,11 @@
             font-weight: 400;
         }
     }
+
     .cardcomment_box{
         padding-top: 20px;
         padding-bottom: 100px;
+
         .card_comment{
             background-color: #ffffff;
             // border: #444444 1px solid;
@@ -31,6 +36,7 @@
             align-content: center;
 
             .cardcomment_text{
+                letter-spacing: 1px;
                 font-style: italic;
                 font-size: 15px;
                 font-weight: 400;
@@ -39,22 +45,27 @@
                 padding: 16px 0px 16px 32px;
                 border-left: #BFBFBF 7px solid;
             }
+
             .autor{
                 display: flex;
                 justify-content: flex-start;
                 align-items: center;
+
                 .autor_image{
                     height: 50px;
                     width: 50px;
                     border-radius: 200px;
                 }
+
                 .autor_text{
                     font-size: 11px;
                     padding-left: 30px;
+
                     strong{
                         color:#ce1b28;
                         font-weight: 400px;
                     }
+
                     span{
                         color: #444444;
                         font-weight: 600px;
@@ -64,32 +75,28 @@
         }
     }
 }
-// @media (max-width: 588px){
-//     .comment_cards{
-//         .autor{
-//             .autor_image{
-//                 height: 50px;
-//                 width: 50px;
-//             }
-//         }
-//     }
-// }
+
 @media (max-width: 768px){
     .comment_cards{
         .comment_dash{
+
             .comment_title{
                 font-size: 24px;
             }
+
             .comment_text{
                 font-size: 16px;
             }
         }
+
         .cardcomment_box{
             .card_comment{
                 padding: 22px;
+
                 .cardcomment_text{
                     font-size: 16px;
                 }
+
                 .autor{
                     .autor_image{
                         height: 90px;

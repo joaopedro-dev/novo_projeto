@@ -14,15 +14,18 @@
     align-content: center;
     align-items: center;
     font-family: $all_font;
+
     .minibanner_box{
         padding: 70px;
         display: flex;
         flex-direction: column;
+
         .minibanner_title{
             color: #ffffff;
             font-size: 33px;
             font-weight: 300;
         }
+
         .minibanner_text{
             font-size: 15px;
             font-weight: 400;
@@ -32,6 +35,7 @@
 }
 
 @media (max-width: 768px){
+    
     .mini_banner{
         background-attachment: scroll;
         height: 350px;

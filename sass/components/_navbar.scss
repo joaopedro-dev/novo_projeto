@@ -8,13 +8,16 @@
     z-index: 10001;
     display: flex;
     align-items: center;
+
     .row{
         width: 100%;
     }
+
     .nav_box {
         display: flex;
         width: 100%;
         justify-content: space-between;
+        
         .nav_home {
             font-weight: 600;
             text-decoration: none;
@@ -59,7 +62,7 @@
                 }
             }
 
-            .link_list {
+            .link_list {   
                 margin: 0;
                 padding: 0 20px;
 

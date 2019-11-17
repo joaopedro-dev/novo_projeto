@@ -1,32 +1,36 @@
 .cards{
-    padding: 20px;
     .cards_dash{
+        display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         text-align: center;
         padding-top: 60px;
+
         .dash_title{
             color: #555555;         
             font-family: $all_font;
             font-size: 33px;
             font-weight: 300;
         }
+
         .dash_text{
-            margin: 0px 100px 0px 100px;
             color: #555555;
             font-family: $all_font;
             font-weight: 400;
             font-size: 15px;
         }
     }
+    
     .cards_box{
         padding-top: 50px;
         padding-bottom: 60px;
+
         .card{
             display: flex;
             flex-direction: column;
             justify-content: center;
-            padding: 30px;
-            //border: #555555 1px solid;
+            padding: 30px;   
             border-radius: 4px;
             margin: 25px;
             height: 382.33px;
@@ -34,18 +38,21 @@
             text-align: center;
             box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
             background: #ffffff;
+
             .icon{
                 font-size: 73px;
                 color:rgb(206, 54, 51);
                 font-weight: 500;
             }
+
             .card_title{
                 font-size: 18px;
                 font-weight: 300;
                 color: #555555;
             }
+
             .card_text{
-                font-size: 15px;
+                font-size: 14px;
                 font-weight: 400;
                 color: #444444;
             }
@@ -59,19 +66,22 @@
             .dash_title{
                 font-size: 24px;
             }
+
             .dash_text{
                 font-size: 16px;
             }
         }
+
         .cards_box{
             .card{
-                // background-color: cyan;
                 .icon{
                     font-size: 80px;
                 }
+
                 .card_title{
                     font-size: 20px;
                 }
+
                 .card_text{
                     font-size: 15px;
                 }
