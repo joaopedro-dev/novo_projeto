@@ -7,7 +7,7 @@
     position: relative;
     max-width: 100%;
     z-index: 1;
-    height: 360.66px;
+    height: 370px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -16,6 +16,8 @@
     font-family: $all_font;
 
     .minibanner_box{
+        letter-spacing: 0.2px;
+        margin: 1px 120px;
         padding: 70px;
         display: flex;
         flex-direction: column;

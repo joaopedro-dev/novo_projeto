@@ -918,7 +918,7 @@ html {
   position: relative;
   max-width: 100%;
   z-index: 1;
-  height: 360.66px;
+  height: 370px;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -935,6 +935,8 @@ html {
 }
 
 .mini_banner .minibanner_box {
+  letter-spacing: 0.2px;
+  margin: 1px 120px;
   padding: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
