@@ -42,7 +42,7 @@
         .menu_link {
             position: fixed;
             height: 100vh;
-            width: 20rem;
+            width: 19rem;
             top: 0;
             right: -400px;
             background: $font_nav;
@@ -50,7 +50,7 @@
             font-size: 15px;
             font-weight: 400;
             color: $color_nav;
-            transition: .20s ease-in-out;
+            transition: .66s ease-in-out;
             text-decoration: none;
 
             .row {
