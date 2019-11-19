@@ -17,10 +17,10 @@
 
     .minibanner_box{
         letter-spacing: 0.2px;
-        margin: 1px 125px;
         padding: 2px;
         display: flex;
         flex-direction: column;
+        max-width: 75%;
 
         .minibanner_title{
             color: #ffffff;
@@ -41,7 +41,7 @@
     
     .mini_banner{
         background-attachment: scroll;
-        height: 340px;
+        height: auto;
         .minibanner_box{
             margin: 1px 10px;
             .minibanner_title{

@@ -2,7 +2,11 @@
 
     .comment_dash{
         padding-top: 80px;
-        text-align: center;   
+        text-align: center;  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
         .comment_title{
             font-size: 33px;
@@ -10,11 +14,11 @@
             font-weight: 300;
         }
 
-        .comment_text{
-            margin: 50px 20px;
+        .comment_text{  
             font-size: 15px;
             color: #444444;
             font-weight: 400;
+            max-width: 75%
         }
     }
 

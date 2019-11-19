@@ -843,6 +843,7 @@ html {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 15px;
+  max-width: 75%;
 }
 
 .cards .cards_box {
@@ -938,7 +939,6 @@ html {
 
 .mini_banner .minibanner_box {
   letter-spacing: 0.2px;
-  margin: 1px 125px;
   padding: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -947,6 +947,7 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  max-width: 75%;
 }
 
 .mini_banner .minibanner_box .minibanner_title {
@@ -965,7 +966,7 @@ html {
 @media (max-width: 768px) {
   .mini_banner {
     background-attachment: scroll;
-    height: 340px;
+    height: auto;
   }
   .mini_banner .minibanner_box {
     margin: 1px 10px;
@@ -978,6 +979,19 @@ html {
 .comment_cards .comment_dash {
   padding-top: 80px;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .comment_cards .comment_dash .comment_title {
@@ -987,10 +1001,10 @@ html {
 }
 
 .comment_cards .comment_dash .comment_text {
-  margin: 50px 20px;
   font-size: 15px;
   color: #444444;
   font-weight: 400;
+  max-width: 75%;
 }
 
 .comment_cards .cardcomment_box {
@@ -1086,7 +1100,7 @@ html {
 .foot {
   background-color: #111111;
   height: auto;
-  padding: 100px 20px 20px 50px;
+  padding: 100px 50px;
 }
 
 .foot a {
@@ -1202,7 +1216,7 @@ html {
 .foot .copy {
   border-top: #444444 1px solid;
   text-align: center;
-  margin: 50px 2px 70px 2px;
+  padding-top: 20px;
 }
 
 .foot .copy .copy_title {
@@ -1221,9 +1235,6 @@ html {
 }
 
 @media (max-width: 788px) {
-  .foot {
-    height: 1000px;
-  }
   .foot .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
