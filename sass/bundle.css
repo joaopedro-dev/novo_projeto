@@ -721,7 +721,7 @@ html {
 }
 
 .banner {
-  background-image: linear-gradient(135deg, rgba(206, 27, 39, 0.836) 0%, rgba(0, 0, 0, 0.74) 74%), url("/images/banner.jpg");
+  background-image: linear-gradient(135deg, rgba(206, 27, 39, 0.795) 0%, rgba(0, 0, 0, 0.74) 74%), url("/images/banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -755,18 +755,18 @@ html {
 }
 
 .banner .banner_box .banner_title {
-  padding: 1px;
   color: #ffffff;
   font-weight: 1;
   text-align: center;
-  font-size: 64px;
-  margin: 1px 5px 5px 1px;
+  font-size: 60px;
+  margin: 50px 5px 5px 1px;
 }
 
 .banner .banner_box p {
-  font-size: 24px;
+  font-size: 23px;
   font-weight: 200;
   color: rgba(255, 255, 255, 0.5);
+  line-height: 35px;
 }
 
 .banner .banner_box p a {
@@ -882,10 +882,12 @@ html {
   font-size: 18px;
   font-weight: 300;
   color: #555555;
+  padding-top: 8px;
 }
 
 .cards .cards_box .card .card_text {
-  font-size: 15   px;
+  line-height: 25px;
+  font-size: 14px;
   font-weight: 400;
   color: #444444;
 }
@@ -936,8 +938,8 @@ html {
 
 .mini_banner .minibanner_box {
   letter-spacing: 0.2px;
-  margin: 1px 120px;
-  padding: 70px;
+  margin: 1px 125px;
+  padding: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -956,13 +958,20 @@ html {
 .mini_banner .minibanner_box .minibanner_text {
   font-size: 15px;
   font-weight: 400;
+  line-height: 24px;
   color: rgba(255, 255, 255, 0.75);
 }
 
 @media (max-width: 768px) {
   .mini_banner {
     background-attachment: scroll;
-    height: 350px;
+    height: 340px;
+  }
+  .mini_banner .minibanner_box {
+    margin: 1px 10px;
+  }
+  .mini_banner .minibanner_box .minibanner_title {
+    font-size: 25px;
   }
 }
 
@@ -1012,13 +1021,13 @@ html {
 }
 
 .comment_cards .cardcomment_box .card_comment .cardcomment_text {
-  letter-spacing: 1px;
+  line-height: 24px;
   font-style: italic;
   font-size: 15px;
   font-weight: 400;
   color: #444444;
   margin: 0px 0px 32px;
-  padding: 16px 0px 16px 32px;
+  padding: 10px 0px 10px 25px;
   border-left: #BFBFBF 7px solid;
 }
 
@@ -1077,10 +1086,7 @@ html {
 .foot {
   background-color: #111111;
   height: auto;
-  padding: 80px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  padding: 100px 20px 20px 50px;
 }
 
 .foot a {
@@ -1104,7 +1110,7 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0px 70px 10px 1px;
+  margin: 0px 60px 10px 1px;
 }
 
 .foot .text_box .text_title {
@@ -1116,6 +1122,7 @@ html {
 .foot .text_box .text_p {
   font-size: 15px;
   color: rgba(255, 255, 255, 0.5);
+  line-height: 24px;
 }
 
 .foot .list_box {
@@ -1142,7 +1149,7 @@ html {
 }
 
 .foot .list_box .list_link .list_item {
-  padding: 10px 0px 0px 0px;
+  padding: 12px 10px 12px 0px;
   border-bottom: #555555 1px solid;
 }
 
@@ -1183,12 +1190,12 @@ html {
 
 .foot .social_box .social_list {
   margin: 1px 20px 2px 2px;
-  padding: 2px 2px 2px 1px;
+  padding: 10px 2px 2px 1px;
 }
 
 .foot .social_box .social_list .social_item {
   list-style: none;
-  padding: 15px 2px 2px 2px;
+  padding: 12px 2px 12px 2px;
   text-align: left;
 }
 

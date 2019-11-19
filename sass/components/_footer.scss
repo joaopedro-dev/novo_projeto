@@ -1,8 +1,8 @@
 .foot{
     background-color: #111111;
     height: auto;
-    padding: 80px;
-    display: flex;
+    padding: 100px 20px 20px 50px;
+
 
     a{
         font-size: 15px;
@@ -19,7 +19,7 @@
     .text_box{
         display: flex;
         flex-direction: column; 
-        margin: 0px 70px 10px 1px;
+        margin: 0px 60px 10px 1px;
 
         .text_title{
             font-size: 18px;
@@ -30,6 +30,7 @@
         .text_p{
             font-size: 15px;
             color: rgba(255, 255, 255, 0.5);
+            line-height: 24px;
         }
     }
 
@@ -49,7 +50,7 @@
             padding: 0px 20px 20px 0px;
 
             .list_item{
-                padding: 10px 0px 0px 0px;
+                padding: 12px 10px 12px 0px;
                 border-bottom:#555555 1px solid;
 
                 &:last-of-type{
@@ -86,11 +87,11 @@
 
         .social_list{
             margin: 1px 20px 2px 2px;
-            padding: 2px 2px 2px 1px;
+            padding: 10px 2px 2px 1px;
 
             .social_item{
                 list-style: none;
-                padding: 15px 2px 2px 2px;
+                padding: 12px 2px 12px 2px;
                 text-align: left;
             }
         }

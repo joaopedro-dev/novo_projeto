@@ -17,8 +17,8 @@
 
     .minibanner_box{
         letter-spacing: 0.2px;
-        margin: 1px 120px;
-        padding: 70px;
+        margin: 1px 125px;
+        padding: 2px;
         display: flex;
         flex-direction: column;
 
@@ -31,6 +31,7 @@
         .minibanner_text{
             font-size: 15px;
             font-weight: 400;
+            line-height: 24px;
             color: rgba(255, 255, 255, 0.75);
         }
     }
@@ -40,6 +41,12 @@
     
     .mini_banner{
         background-attachment: scroll;
-        height: 350px;
+        height: 340px;
+        .minibanner_box{
+            margin: 1px 10px;
+            .minibanner_title{
+                font-size: 25px;
+            }
+        }
     }
 }
