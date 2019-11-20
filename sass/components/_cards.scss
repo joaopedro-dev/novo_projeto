@@ -9,7 +9,7 @@
 
         .dash_title{
             color: #555555;         
-            font-family: $all_font;
+            font-family: $card_font;
             font-size: 33px;
             font-weight: 300;
         }
@@ -49,6 +49,7 @@
             .card_title{
                 font-size: 18px;
                 font-weight: 300;
+                font-family: $card_font;
                 color: #555555;
                 padding-top: 8px;
             }

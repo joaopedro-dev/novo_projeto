@@ -1,5 +1,5 @@
 .mini_banner{
-    background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url('/images/minibanner.jpg');
+    background-image: linear-gradient(rgba(230, 10, 25, 0.685), rgba(0, 0, 0, 0.781)), url('/images/minibanner.jpeg');
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -13,7 +13,6 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    font-family: $all_font;
 
     .minibanner_box{
         letter-spacing: 0.2px;
@@ -23,6 +22,7 @@
         max-width: 75%;
 
         .minibanner_title{
+            font-family: $banner_font;
             color: #ffffff;
             font-size: 33px;
             font-weight: 300;

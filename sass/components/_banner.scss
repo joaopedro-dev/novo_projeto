@@ -23,11 +23,12 @@
             color: $color_nav;
             font-weight: 1;
             text-align: center;
-            font-size: 60px;
+            font-size: 80px;
+            font-family: $banner_font;
             margin: 40px 5px 5px 1px;
         }
 
-        p{
+        .banner_text{
             font-size: 23px;
             font-weight: 200;
             color:rgba(255, 255, 255, 0.5);
@@ -73,16 +74,14 @@
     .banner{
         background-attachment: scroll;
         height: 300px;
-        padding: 100px;
 
         .banner_box{
             .banner_title{
-                font-size: 28px;
-                margin: 30px 5px 5px 2px;
+                font-size: 40px;
             }
 
-            p{
-                font-size: 18px;
+            .banner_text{
+                font-size: 16px;
             }
         }
     }

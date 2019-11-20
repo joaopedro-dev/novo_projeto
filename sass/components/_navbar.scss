@@ -19,15 +19,17 @@
         justify-content: space-between;
         
         .nav_home {
+            font-family: $menu_font;
             font-weight: 600;
             text-decoration: none;
             color: $color_nav;
-            font-size: 15px;
+            font-size: 16px;
             margin: 1px 10px;
         }
 
         .nav_menu {
             color: rgba(255, 255, 255, 0.5);
+            font-family: $menu_font;
             padding-left: 15px;
             width: 80px;
             font-size: 15px;
@@ -46,7 +48,6 @@
             top: 0;
             right: -400px;
             background: $font_nav;
-            font-family: $all_font;
             font-size: 15px;
             font-weight: 400;
             color: $color_nav;
