@@ -1,5 +1,5 @@
 .mini_banner{
-    background-image: linear-gradient(rgba(230, 10, 25, 0.685), rgba(0, 0, 0, 0.781)), url('/images/minibanner.jpeg');
+    background-image: linear-gradient(rgba(230, 10, 25, 0.541), rgb(0, 0, 0)), url('/images/minibanner1.jpg');
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    align-items: center;
+    align-items: center;    
 
     .minibanner_box{
         letter-spacing: 0.2px;

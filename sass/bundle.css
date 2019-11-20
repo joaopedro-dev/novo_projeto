@@ -915,8 +915,8 @@ html {
 }
 
 .mini_banner {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(230, 10, 25, 0.685)), to(rgba(0, 0, 0, 0.781))), url("/images/minibanner.jpeg");
-  background-image: linear-gradient(rgba(230, 10, 25, 0.685), rgba(0, 0, 0, 0.781)), url("/images/minibanner.jpeg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(230, 10, 25, 0.541)), to(black)), url("/images/minibanner1.jpg");
+  background-image: linear-gradient(rgba(230, 10, 25, 0.541), black), url("/images/minibanner1.jpg");
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
