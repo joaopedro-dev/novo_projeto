@@ -643,9 +643,8 @@ html {
 .nav_bar .nav_box .nav_menu {
   color: rgba(255, 255, 255, 0.5);
   font-family: "Suez One", serif;
-  padding-left: 15px;
-  width: 80px;
-  font-size: 15px;
+  padding-right: 10px;
+  font-size: 20px;
   cursor: pointer;
 }
 
@@ -865,13 +864,13 @@ html {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 30px;
-  border-radius: 4px;
+  border-radius: 15px;
   margin: 25px;
   height: 382.33px;
   font-family: "Raleway", sans-serif;
   text-align: center;
-  -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
-          box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
+  -webkit-box-shadow: 3px 3px 12px 1px rgba(0, 0, 0, 0.507);
+          box-shadow: 3px 3px 12px 1px rgba(0, 0, 0, 0.507);
   background: #ffffff;
 }
 
@@ -915,8 +914,8 @@ html {
 }
 
 .mini_banner {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(230, 10, 25, 0.541)), to(black)), url("/images/minibanner1.jpg");
-  background-image: linear-gradient(rgba(230, 10, 25, 0.541), black), url("/images/minibanner1.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(230, 10, 25, 0.541)), to(black)), url("/images/minibanner2.jpeg");
+  background-image: linear-gradient(rgba(230, 10, 25, 0.541), black), url("/images/minibanner2.jpeg");
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -1018,9 +1017,9 @@ html {
 
 .comment_cards .cardcomment_box .card_comment {
   background-color: #ffffff;
-  -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
-          box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
-  border-radius: 4px;
+  -webkit-box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.507);
+          box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.507);
+  border-radius: 2px;
   margin: 25px;
   height: 316.5px;
   padding: 60px;
@@ -1104,7 +1103,7 @@ html {
 .foot {
   background-color: #111111;
   height: auto;
-  padding: 100px 50px;
+  padding: 100px 20px;
 }
 
 .foot a {
@@ -1143,78 +1142,8 @@ html {
   line-height: 24px;
 }
 
-.foot .list_box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-.foot .list_box .list_title {
-  font-size: 15px;
-  font-weight: 300;
-  color: #ffffff;
-}
-
-.foot .list_box .list_link {
-  list-style: none;
-  padding: 0px 20px 20px 0px;
-}
-
-.foot .list_box .list_link .list_item {
-  padding: 12px 10px 12px 0px;
-  border-bottom: #555555 1px solid;
-}
-
-.foot .list_box .list_link .list_item:last-of-type {
-  border-bottom: 0;
-}
-
-.foot .list_box .list_link .list_item .link_item {
-  text-decoration: none;
-  width: 300px;
-  color: #555555;
-  font-size: 15px;
-  font-weight: 400;
-}
-
-.foot .social_box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding-left: 30px;
-}
-
-.foot .social_box .icon_social {
-  padding-right: 20px;
-  color: #ffffff;
-  margin: 1px;
-}
-
-.foot .social_box .social_title {
-  font-size: 15px;
-  font-weight: 300;
-  color: #ffffff;
-}
-
-.foot .social_box .social_list {
-  margin: 1px 20px 2px 2px;
-  padding: 10px 2px 2px 1px;
-}
-
-.foot .social_box .social_list .social_item {
-  list-style: none;
-  padding: 12px 2px 12px 2px;
-  text-align: left;
+.foot .linkedin {
+  padding-left: 200px;
 }
 
 .foot .copy {
@@ -1245,11 +1174,12 @@ html {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .foot .text_box {
-    margin: 0px 0px 50px 1px;
-  }
   .foot .social_box {
     padding: 0;
+  }
+  .foot .linkedin {
+    padding-left: 0;
+    padding-bottom: 20px;
   }
 }
 
@@ -1262,8 +1192,7 @@ body {
   padding: 0;
   border: 0;
   font-family: "Raleway", sans-serif;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 255, 255, 0.88))), url("/images/bg.jpg");
-  background-image: linear-gradient(white, rgba(255, 255, 255, 0.88)), url("/images/bg.jpg");
+  background-color: rgba(240, 240, 240, 0.808);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;

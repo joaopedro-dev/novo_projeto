@@ -1,7 +1,7 @@
 .foot{
     background-color: #111111;
     height: auto;
-    padding: 100px 50px;
+    padding: 100px 20px;
 
 
     a{
@@ -34,67 +34,8 @@
         }
     }
 
-    .list_box{
-        display:flex;
-        flex-direction: column;
-        align-content: center;
-
-        .list_title{
-            font-size: 15px;
-            font-weight: 300;
-            color: #ffffff;
-        }
-
-        .list_link{
-            list-style: none;    
-            padding: 0px 20px 20px 0px;
-
-            .list_item{
-                padding: 12px 10px 12px 0px;
-                border-bottom:#555555 1px solid;
-
-                &:last-of-type{
-                    border-bottom: 0;
-                }
-
-                .link_item{
-                    text-decoration: none;
-                    width: 300px;
-                    color: #555555;
-                    font-size: 15px;
-                    font-weight: 400; 
-                }
-            }
-        }
-    }
-
-    .social_box{
-        display: flex;
-        flex-direction:column;
-        padding-left: 30px;
-
-        .icon_social{
-            padding-right: 20px;
-            color: #ffffff;
-            margin: 1px;
-        }
-
-        .social_title{
-            font-size: 15px;
-            font-weight: 300;
-            color: #ffffff;
-        }
-
-        .social_list{
-            margin: 1px 20px 2px 2px;
-            padding: 10px 2px 2px 1px;
-
-            .social_item{
-                list-style: none;
-                padding: 12px 2px 12px 2px;
-                text-align: left;
-            }
-        }
+    .linkedin{
+        padding-left: 200px;
     }
 
     .copy{
@@ -124,13 +65,12 @@
         .row{
             flex-direction: column;
         }
-
-        .text_box{
-            margin: 0px 0px 50px 1px;
-        }
-
         .social_box{
             padding: 0;
+        }
+        .linkedin{
+            padding-left: 0;
+            padding-bottom: 20px;
         }
     }
 }
