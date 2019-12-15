@@ -1183,6 +1183,14 @@ html {
   }
 }
 
+.about_box {
+  padding: 100px;
+}
+
+.about_box .about_title {
+  text-align: center;
+}
+
 html {
   overflow-x: hidden;
 }
