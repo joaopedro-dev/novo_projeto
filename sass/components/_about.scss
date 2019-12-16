@@ -1,6 +1,11 @@
 .about_box{
-    padding: 100px;
+    padding: 120px;
     .about_title{
         text-align: center;
+        font-family: $card_font;
+        font-size: 28px;
+    }
+    .about_text{
+        line-height: 26px;
     }
 }

@@ -746,7 +746,6 @@ html {
 }
 
 .banner .banner_box {
-  font-family: "Raleway", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1184,11 +1183,17 @@ html {
 }
 
 .about_box {
-  padding: 100px;
+  padding: 120px;
 }
 
 .about_box .about_title {
   text-align: center;
+  font-family: "Calistoga", cursive;
+  font-size: 28px;
+}
+
+.about_box .about_text {
+  line-height: 26px;
 }
 
 html {
